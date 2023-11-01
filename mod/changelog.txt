@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 01. 11. 2023
+  Info:
+    - Added [Armor Spill Prevention](https://mods.factorio.com/mod/armor-spill-prevention)
+    - Added [Shortcuts for 1.1](https://mods.factorio.com/mod/Shortcuts-ick)
+  Features:
+    - Set the default values for some mods
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 01. 11. 2023
   Info:

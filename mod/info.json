@@ -1,11 +1,12 @@
 {
     "name": "fvx_vanilla_qol",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "title": "[FaustVX] Vanilla QoL modpack",
     "author": "FaustVX",
     "homepage": "https://github.com/FaustVX/fvx_mods_vanilla_like_QoL",
     "factorio_version": "1.1",
     "dependencies": [
+        "armor-spill-prevention = 0.0.8",
         "automatic-logistic-chests = 1.2.0",
         "Automatic_Train_Painter = 1.2.0",
         "auto_manual_mode = 0.0.9",
@@ -30,6 +31,7 @@
         "more_circuit_signals_UPDATED = 1.2.1",
         "Pacifist = 0.1.11",
         "RealisticFlashlight = 0.2.4",
+        "Shortcuts-ick = 1.1.28",
         "Smart_Inserters = 1.1.2",
         "Squeak Through = 1.8.2",
         "TrainScheduleHelper = 1.0.2",
