@@ -1,0 +1,10 @@
+{
+    "name": "*",
+    "version": "1.0.0",
+    "title": "*",
+    "author": "FaustVX",
+    "homepage": "https://github.com/FaustVX/*",
+    "factorio_version": "1.1",
+    "dependencies": [],
+    "description": "*"
+}

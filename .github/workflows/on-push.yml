@@ -1,0 +1,33 @@
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  Upload_Release:
+    runs-on: ubuntu-latest
+    name: Upload Release
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Lint
+        uses: Roang-zero1/factorio-mod-luacheck@v1.1.0
+        with:
+          luacheckrc_url: https://raw.githubusercontent.com/Nexela/Factorio-luacheckrc/0.17/.luacheckrc
+      - name: Read Json Properties Action
+        uses: muchaszewski/read-json-action@1.0.0
+        id: props
+        with:
+          path: mod/info.json
+          properties: "name"
+      - name: Install zip
+        run: sudo apt-get install -y zip
+      - name: Create zip file
+        run: zip -r ${{steps.props.outputs.name}}.zip mod/
+      - name: Upload to Mod Portal
+        uses: mchangrh/factorio-mod-upload@v1
+        with:
+          mod-name: ${{steps.props.outputs.name}}
+        env:
+          FACTORIO_MODS_TOKEN: ${{ secrets.FACTORIO_TOKEN }}
+          FILENAME: "./${{steps.props.outputs.name}}.zip"
