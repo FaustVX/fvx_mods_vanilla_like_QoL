@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 01. 11. 2023
+  Minor Features:
+    - Set the default values for `utilization-monitor-force-player` to `false`
+      This allows to see the percentage even in the `blueprint-sandboxes` surface
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 01. 11. 2023
   Info:

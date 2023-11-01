@@ -40,6 +40,7 @@ local settingsMods = {
         ["utilization-monitor-secs-pump"] = 100,
         ["utilization-monitor-secs-offshore-pump"] = 100,
         ["utilization-monitor-label-alt"] = true,
+        ["utilization-monitor-force-player"] = false,
     },
 }
 
