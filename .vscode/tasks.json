@@ -6,9 +6,13 @@
         {
             "label": "upload new version",
             "type": "shell",
-            "command": "./bump_version.sh ${input:tag} '${input:message}'",
+            "command": "./bump_version.sh",
+            "args": [
+                "${input:tag}",
+                "${input:message}"
+            ],
             "windows": {
-                "command": ".\\bump_version.ps1 ${input:tag} '${input:message}'"
+                "command": ".\\bump_version.ps1"
             }
         }
     ],
