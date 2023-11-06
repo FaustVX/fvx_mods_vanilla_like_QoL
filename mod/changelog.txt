@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 06. 11. 2023
+  Features:
+    - Removed some mods which added new item
+      beautiful_bridge_railway
+      fcpu
+      logistic-cargo-wagon
+      logtech-beacon
+      miniloader
+      more_circuit_signals_UPDATED
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 01. 11. 2023
   Minor Features:
