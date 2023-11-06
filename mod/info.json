@@ -1,6 +1,6 @@
 {
     "name": "fvx_vanilla_qol",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "title": "[FaustVX] Vanilla QoL modpack",
     "author": "FaustVX",
     "homepage": "https://github.com/FaustVX/fvx_mods_vanilla_like_QoL",
@@ -18,7 +18,6 @@
         "DoingThingsByHand = 1.2.2",
         "FNEI = 0.4.1",
         "inbuilt_lighting = 20.1.13",
-        "lcw_tweak = 1.0.2",
         "light-overhaul = 0.1.3",
         "lightorio = 1.1.6",
         "manual-trains-at-temp-stops = 1.1.0",
