@@ -6,9 +6,9 @@
         {
             "label": "upload new version",
             "type": "shell",
-            "command": "./bump_version.sh ${input:tag}",
+            "command": "./bump_version.sh ${input:tag} '${input:message}'",
             "windows": {
-                "command": ".\\bump_version.ps1 ${input:tag}"
+                "command": ".\\bump_version.ps1 ${input:tag} '${input:message}'"
             }
         }
     ],
@@ -22,6 +22,11 @@
                 "description": "mod version tag",
                 "default": "v1.0.0"
             }
+        },
+        {
+            "id": "message",
+            "type": "promptString",
+            "description": "commit message (optional)"
         }
     ]
 }
