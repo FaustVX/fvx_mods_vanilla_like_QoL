@@ -1,12 +1,13 @@
 {
     "name": "fvx_vanilla_qol",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "title": "[FaustVX] Vanilla QoL modpack",
     "author": "FaustVX",
     "homepage": "https://github.com/FaustVX/fvx_mods_vanilla_like_QoL",
     "factorio_version": "1.1",
     "dependencies": [
         "armor-spill-prevention = 0.0.8",
+        "AutoDeconstruct = 0.3.10",
         "automatic-logistic-chests = 1.2.0",
         "Automatic_Train_Painter = 1.2.0",
         "auto_manual_mode = 0.0.9",
@@ -16,6 +17,9 @@
         "CursorEnhancements = 2.1.0",
         "DeadlockBlackRubberBelts = 1.0.4",
         "DoingThingsByHand = 1.2.2",
+        "extended-descriptions = 1.2.1",
+        "factoryplanner = 1.1.72",
+        "FactorySearch = 1.10.14",
         "FNEI = 0.4.1",
         "inbuilt_lighting = 20.1.13",
         "light-overhaul = 0.1.3",
@@ -23,11 +27,17 @@
         "manual-trains-at-temp-stops = 1.1.0",
         "Milestones = 1.3.20",
         "Pacifist = 0.3.1",
+        "RateCalculator = 3.2.3",
         "RealisticFlashlight = 0.2.4",
+        "RemoteConfiguration = 1.2.4",
         "Shortcuts-ick = 1.1.28",
         "Smart_Inserters = 1.2.1",
         "Squeak Through = 1.8.2",
+        "StatsGui = 1.4.1",
+        "Todo-List = 19.3.0",
         "TrainScheduleHelper = 1.0.2",
-        "UtilizationMonitorBlargh = 0.8.17"
+        "UtilizationMonitorBlargh = 0.8.17",
+        "Waterfill_v17 = 1.1.0",
+        "YARM = 0.10.14"
     ]
 }

@@ -42,14 +42,22 @@ local settingsMods = {
         ["utilization-monitor-label-alt"] = true,
         ["utilization-monitor-force-player"] = false,
     },
+    ["Todo-List"] = {
+        ["todolist-auto-assign"] = true,
+    },
+    ["StatsGui"] = {
+        ["statsgui-single-line"] = false,
+        ["statsgui-adjust-for-clock"] = true,
+        ["statsgui-show-sensor-evolution"] = false,
+    },
 }
 
 local function checkMods(mod)
     if (type(mod) == "string") then
-        return mods[mod]
+        return mods[mod] == not nil
     elseif (type(mod) == "table") then
         for _, value in pairs(mod) do
-            if not mods[value] then
+            if mods[value] == nil then
                 return false
             end
         end
