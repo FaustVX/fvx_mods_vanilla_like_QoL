@@ -54,10 +54,10 @@ local settingsMods = {
 
 local function checkMods(mod)
     if (type(mod) == "string") then
-        return mods[mod] == not nil
+        return mods[mod]
     elseif (type(mod) == "table") then
         for _, value in pairs(mod) do
-            if mods[value] == nil then
+            if not mods[value] then
                 return false
             end
         end
