@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "./bump_version.sh",
             "args": [
-                "v${input:version}",
+                "${input:version}",
                 "${input:message}"
             ],
             "windows": {
