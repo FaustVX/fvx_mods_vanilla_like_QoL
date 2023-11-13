@@ -1,10 +1,11 @@
 ---------------------------------------------------------------------------------------------------
-Version: 
-Date: 
+Version: 1.4.1
+Date: 13. 11. 2023
   Features:
-    - Updated new mods
-      Smart_Inserters (-> 1.2.2)
-      train-limit-linter (-> 1.0.13)
+    - Updated new mods (mainly `Smart_Inserters`)
+      AutoDeconstruct (-> 0.3.11)
+      Smart_Inserters (-> 1.2.6)
+      train-limit-linter (-> 1.0.14)
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.0
 Date: 11. 11. 2023
