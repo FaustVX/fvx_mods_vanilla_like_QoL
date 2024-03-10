@@ -4,7 +4,7 @@ version=$1
 message=$2
 
 if [[ "$line" != *"$version"* ]]; then
-    echo "Invalid version in ``changelog.txt``"
+    echo "Invalid version in \`changelog.txt\`"
     exit 1
 fi
 version="v$version"
