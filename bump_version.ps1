@@ -12,6 +12,12 @@ if (-not (Get-Content .\mod\changelog.txt)[1].Contains($version))
     exit 1
 }
 
+if (-not (Get-Content .\mod\info.json)[2].Contains($version))
+{
+    echo "Invalid version in ``info.json``"
+    exit 1
+}
+
 $version = "v$version"
 
 if ($PSBoundParameters.ContainsKey('message'))

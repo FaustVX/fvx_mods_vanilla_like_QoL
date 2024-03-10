@@ -1,10 +1,16 @@
 #!/bin/bash
-line=$(head -n "+2" "mod/changelog.txt" | tail -1)
 version=$1
 message=$2
 
+line=$(head -n "+2" "mod/changelog.txt" | tail -1)
 if [[ "$line" != *"$version"* ]]; then
     echo "Invalid version in \`changelog.txt\`"
+    exit 1
+fi
+
+line=$(head -n "+3" "mod/info.json" | tail -1)
+if [[ "$line" != *"$version"* ]]; then
+    echo "Invalid version in \`info.json\`"
     exit 1
 fi
 version="v$version"
