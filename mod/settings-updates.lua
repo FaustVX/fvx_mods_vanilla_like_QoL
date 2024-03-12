@@ -50,6 +50,17 @@ local settingsMods = {
         ["statsgui-adjust-for-clock"] = true,
         ["statsgui-show-sensor-evolution"] = false,
     },
+    ["BlackMarket2"] = {
+        ["BM2-only_items_researched"] = true,
+        ["BM2-default_auto"] = true,
+        ["BM2-recipe_depth_maximum"] = 25,
+    },
+    ["blueprint-sandboxes"] = {
+        ["bpsb-allow-all-technology"] = true,
+    },
+    ["RemoteConfiguration"] = {
+        ["rc-interact-in-game"] = true,
+    },
 }
 
 local function checkMods(mod)

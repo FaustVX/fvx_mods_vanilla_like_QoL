@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.4
+Date: 12. 03. 2024
+  Features:
+    - Added mods
+      Assembler Production Rates (0.1.1)
+      Inserter Throughput (0.1.4)
+    - Removed mods
+      Pacifist (Changes tech tree)
+      Black Rubber Belts (Not suitable for streaming)
+    - Changed settings
+      Black Market 2 (if present)
+      Blueprint Sandboxes
+      Remote Configuration
+---------------------------------------------------------------------------------------------------
 Version: 1.4.3
 Date: 10. 03. 2024
   Features:
