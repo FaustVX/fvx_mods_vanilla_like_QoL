@@ -24,6 +24,6 @@ else
     exit false
 fi
 
-git tag "$version"
 git push
+git tag "$version"
 git push --tags

@@ -8,13 +8,13 @@ param (
 
 if (-not (Get-Content .\mod\changelog.txt)[1].Contains($version))
 {
-    echo "Invalid version in ``changelog.txt``"
+    Write-Output "Invalid version in ``changelog.txt``"
     exit 1
 }
 
 if (-not (Get-Content .\mod\info.json)[2].Contains($version))
 {
-    echo "Invalid version in ``info.json``"
+    Write-Output "Invalid version in ``info.json``"
     exit 1
 }
 
@@ -29,6 +29,6 @@ else
     git commit -am "Bumped version ``$version``"
 }
 
-git tag $version
 git push
+git tag $version
 git push --tags
