@@ -1,4 +1,29 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.5
+Date: 19. 05. 2024
+  Features:
+    - Updated most mods
+      assembler-craft-rates (-> 0.1.5)
+      blueprint-sandboxes (-> 1.19.0)
+      blueprint-variables (-> 0.1.5)
+      CursorEnhancements (-> 2.1.1)
+      extended-descriptions (-> 1.2.2)
+      FactorySearch (-> 1.11.0)
+      inserter-throughput (-> 0.1.5)
+      mining-patch-planner (-> 1.6.7)
+      PipeVisualizer (-> 2.2.1)
+      RateCalculator (-> 3.2.5)
+      RemoteConfiguration (-> 1.2.6)
+      Smart_Inserters (-> 1.2.15)
+      train-limit-linter (-> 1.0.28)
+    - Added mods
+      circuit-checker (1.1.6)
+      circuit-control-guis (0.0.3)
+      concreep-redux (2.3.2)
+      factory_graph (1.0.5)
+      fluid-connection-indicators (0.1.7)
+      rs-base-scanner (1.8.2)
+---------------------------------------------------------------------------------------------------
 Version: 1.4.4
 Date: 12. 03. 2024
   Features:
